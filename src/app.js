@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import { getTweets, postTweet } from "./controllers/tweet-controller.js";
 import userSignUp from "./controllers/user-controller.js";
 
